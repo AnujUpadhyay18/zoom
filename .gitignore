@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+
+# Logs
+logs
+*.log
+log.txt
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PM2 logs and dumps
+pids
+*.pid
+*.seed
+*.pid.lock
+dump.rdb
+
+# VSCode
+.vscode/
+
+# Build / Cache
+dist/
+build/
+.cache/
+.next/
+
+# Optional: coverage reports from testing
+coverage/
+
+# Optional: Socket.IO temp files (if any)
+*.sock
+
+# Optional: lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
